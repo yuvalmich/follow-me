@@ -1,0 +1,23 @@
+{
+  "name": "user-confirmation",
+  "version": "1.0.0",
+  "description": "saves and exports the user confirmation code",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "latest",
+    "express": "latest",
+    "express-promise-router": "^4.0.1",
+    "promise-router": "^0.2.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.9",
+    "@types/express-promise-router": "^3.0.0",
+    "typescript": "^4.1.2"
+  }
+}
