@@ -1,5 +1,7 @@
-import cookieParser from 'cookie-parser';
-import express, {Express} from 'express';
+import {Express} from "express";
+import express = require("express");
+import confirmationRouter from "./user-confirmation/route";
+
 
 
 export class Server {
@@ -15,10 +17,10 @@ export class Server {
     private initMiddlewares() {
         this.app.use(express.json());
         this.app.use(express.urlencoded({extended: true}));
-        this.app.use(cookieParser());
     }
 
     private initRoutes() {
+        this.app.use("/Confirmation", confirmationRouter);
     }
 
     public start() {
