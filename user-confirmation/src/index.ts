@@ -1,5 +1,5 @@
-function helloWorld() {
-    console.log("hello world!");
-}
+import {Server} from "./server";
 
-helloWorld();
+const server = new Server();
+
+server.start();
