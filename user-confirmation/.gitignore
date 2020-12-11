@@ -1,1 +1,8 @@
+# IDE
 .idea
+
+# package management
+node_modules
+
+# compilation
+dist

@@ -1,0 +1,14 @@
+{
+  "name": "user-confirmation",
+  "version": "1.0.0",
+  "description": "saves and exports the user confirmation code",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.1.2"
+  }
+}
